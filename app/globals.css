@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-jost: var(--font-jost), sans-serif;
+  --font-inter: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Beau & Co. palette */
+  --color-bc-canvas: #f8f6f4;
+  --color-bc-surface: #ffffff;
+  --color-bc-ink: #1a1719;
+  --color-bc-body: #55504f;
+  --color-bc-black: #0c0b0d;
+  --color-bc-accent: #d1447e;
+  --color-bc-accent-hover: #98305c;
+  --color-bc-muted: #8d8785;
+  --color-bc-muted-2: #a9a3a0;
+  --color-bc-rule: #e4dfdc;
+  --color-bc-placeholder: #efeceb;
+
+  /* Bloom palette */
+  --color-bloom-canvas: #ffffff;
+  --color-bloom-tint: #eef1f5;
+  --color-bloom-tint-2: #e2e7ee;
+  --color-bloom-navy: #1c3153;
+  --color-bloom-deep-navy: #0f1b30;
+  --color-bloom-body: #5b6576;
+  --color-bloom-ink: #182233;
+  --color-bloom-accent: #d1447e;
+  --color-bloom-accent-hover: #a8305f;
+  --color-bloom-accent-deep: #98305c;
+  --color-bloom-accent-tint: #f7dfe9;
+  --color-bloom-muted: #aab3c4;
+  --color-bloom-light: #fdf3f7;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #d1447e;
+  }
+}
+
+@keyframes bc-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: bc-marquee 38s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-marquee {
+    animation: none;
+  }
+}
