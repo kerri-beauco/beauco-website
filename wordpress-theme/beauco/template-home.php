@@ -227,7 +227,6 @@
     </div>
     <div class="bc-footer-bottom">
       <span>&copy; <?php echo esc_html( date( 'Y' ) ); ?> Beau &amp; Co. Marketing</span>
-      <span>Site in progress &middot; homepage draft</span>
     </div>
   </div>
 </footer>
