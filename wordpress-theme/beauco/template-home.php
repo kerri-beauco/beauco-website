@@ -26,7 +26,7 @@
       <a href="#work">About Us</a>
       <a href="<?php echo esc_url( beauco_template_page_url( 'template-bloom.php', '/bloom/' ) ); ?>">Bloom</a>
       <a href="#talk">Contact</a>
-      <a href="#talk" class="btn">Let&rsquo;s Talk</a>
+      <a href="mailto:kerri@beauco.ca" class="btn">Let&rsquo;s Talk</a>
     </nav>
   </div>
 </header>
@@ -40,7 +40,7 @@
         <h1>We make<br>work move.</h1>
         <p>Our passion is breathing life back into any project. It&rsquo;s that second set of eyes when you&rsquo;ve lived and breathed it for too long. It&rsquo;s that massive, high-impact project no one wants to tackle. It&rsquo;s that sales team rebuilding the same deck every week, when the tools are already built and sitting there.</p>
         <p>Let us tackle what&rsquo;s been holding your team back. We&rsquo;ll bring structure, clarity, and immediate momentum &mdash; bringing your team along for the ride.</p>
-        <a href="#talk" class="btn bc-btn-primary">Let&rsquo;s Talk <?php beauco_arrow_icon(); ?></a>
+        <a href="mailto:kerri@beauco.ca" class="btn bc-btn-primary">Let&rsquo;s Talk <?php beauco_arrow_icon(); ?></a>
       </div>
       <div class="bc-hero-figure">
         <img src="<?php echo beauco_image( 'kerri-hero.png' ); ?>" alt="Kerri Beaulieu">
