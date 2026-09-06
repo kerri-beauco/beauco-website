@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# WordPress theme build artifact (regenerate with `cd wordpress-theme && zip -r beauco-wordpress-theme.zip beauco`)
+wordpress-theme/*.zip
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
