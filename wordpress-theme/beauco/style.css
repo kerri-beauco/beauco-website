@@ -507,6 +507,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 30%;
 }
 .bc-kerri .eyebrow {
   color: var(--bc-accent);
@@ -633,6 +634,274 @@ p {
   color: var(--bc-ink);
   font-weight: 600;
   margin-bottom: 0;
+}
+
+/* ---------------------------------------------------------------------- */
+/* About Us page                                                          */
+/* ---------------------------------------------------------------------- */
+.bc-nav a.is-current {
+  color: var(--bc-accent);
+}
+
+.about-hero {
+  background: var(--bc-canvas);
+  padding: clamp(32px, 4vw, 56px) 0 clamp(56px, 6vw, 88px);
+}
+.about-hero .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+}
+.about-hero .eyebrow {
+  color: var(--bc-accent);
+  margin-bottom: 22px;
+}
+.about-hero h1 {
+  font-family: var(--font-jost);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--bc-ink);
+  font-size: clamp(40px, 5.8vw, 78px);
+  line-height: 0.94;
+  letter-spacing: 0.005em;
+}
+.about-hero p {
+  margin-top: 28px;
+  color: var(--bc-body);
+  font-size: 17.5px;
+  max-width: 520px;
+}
+.about-portrait {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background: var(--bc-placeholder);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.about-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.about-who {
+  background: var(--bc-surface);
+  padding: clamp(64px, 7vw, 100px) 0;
+}
+.about-who .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: clamp(32px, 5vw, 64px);
+  align-items: start;
+}
+.about-who .eyebrow {
+  color: var(--bc-accent);
+  margin-bottom: 14px;
+}
+.about-who h2 {
+  font-family: var(--font-jost);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--bc-ink);
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1;
+  letter-spacing: 0.005em;
+  margin-bottom: 6px;
+}
+.about-who-role {
+  color: var(--bc-body);
+  font-size: 16px;
+}
+.about-who p {
+  color: var(--bc-body);
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+.about-who p.emphasis {
+  color: var(--bc-ink);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.about-strengths {
+  background: var(--bc-canvas);
+  padding: clamp(64px, 7vw, 100px) 0;
+}
+.about-strengths h2 {
+  font-family: var(--font-jost);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--bc-ink);
+  font-size: clamp(30px, 4.2vw, 52px);
+  line-height: 1;
+  letter-spacing: 0.005em;
+  margin-bottom: clamp(40px, 4vw, 56px);
+}
+.about-strengths-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: clamp(28px, 3.5vw, 48px);
+}
+.about-strengths-grid h3 {
+  font-family: var(--font-jost);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  color: var(--bc-ink);
+  margin-bottom: 12px;
+}
+.about-strengths-grid p {
+  color: var(--bc-body);
+  font-size: 15.5px;
+}
+
+.about-career {
+  background: var(--bc-surface);
+  padding: clamp(64px, 7vw, 100px) 0;
+}
+.about-career-intro {
+  max-width: 620px;
+  margin-bottom: clamp(40px, 4vw, 56px);
+}
+.about-career-intro .eyebrow {
+  color: var(--bc-accent);
+  margin-bottom: 14px;
+}
+.about-career-intro h2 {
+  font-family: var(--font-jost);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--bc-ink);
+  font-size: clamp(30px, 4.2vw, 52px);
+  line-height: 1;
+  letter-spacing: 0.005em;
+}
+.about-career-table {
+  border-top: 2px solid var(--bc-rule);
+}
+.about-career-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 8px clamp(24px, 3vw, 48px);
+  padding: 28px 0;
+  border-bottom: 2px solid var(--bc-rule);
+}
+.about-career-row h3 {
+  font-family: var(--font-jost);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  color: var(--bc-ink);
+  margin-bottom: 4px;
+}
+.about-career-org {
+  color: var(--bc-body);
+  font-size: 15px;
+}
+.about-career-dates {
+  color: var(--bc-muted);
+  font-size: 13.5px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+.about-career-row p {
+  margin: 0;
+  color: var(--bc-body);
+  font-size: 15.5px;
+  grid-column: span 2;
+}
+
+.about-credentials {
+  background: var(--bc-black);
+  color: var(--bc-muted);
+  padding: clamp(56px, 6vw, 84px) 0;
+}
+.about-credentials .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: clamp(32px, 4vw, 56px);
+}
+.about-credentials h3 {
+  font-family: var(--font-jost);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.about-degree {
+  margin-bottom: 18px;
+}
+.about-degree:last-child {
+  margin-bottom: 0;
+}
+.about-degree-name {
+  color: #fff;
+  font-size: 15.5px;
+  font-weight: 500;
+}
+.about-degree-school {
+  font-size: 14.5px;
+}
+.about-courses {
+  font-size: 14.5px;
+  line-height: 1.9;
+}
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.about-skills span {
+  border: 1px solid rgba(232, 228, 226, 0.22);
+  padding: 6px 12px;
+  border-radius: 2px;
+  font-size: 13px;
+}
+
+.about-beyond {
+  background: var(--bc-canvas);
+  padding: clamp(64px, 7vw, 100px) 0;
+}
+.about-beyond-intro {
+  max-width: 620px;
+  margin-bottom: clamp(36px, 4vw, 52px);
+}
+.about-beyond-intro .eyebrow {
+  color: var(--bc-accent);
+  margin-bottom: 14px;
+}
+.about-beyond-intro h2 {
+  font-family: var(--font-jost);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--bc-ink);
+  font-size: clamp(30px, 4.2vw, 52px);
+  line-height: 1;
+  letter-spacing: 0.005em;
+}
+.about-beyond-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: clamp(24px, 3vw, 40px);
+}
+.about-beyond-grid h3 {
+  font-family: var(--font-jost);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: var(--bc-ink);
+  margin-bottom: 8px;
+}
+.about-beyond-grid p {
+  color: var(--bc-body);
+  font-size: 15.5px;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -980,8 +1249,8 @@ p {
   background: var(--bloom-accent);
 }
 .bloom-path-photo {
-  width: 44%;
-  min-width: 160px;
+  width: 72%;
+  min-width: 200px;
   aspect-ratio: 4 / 5;
   border-radius: 3px;
   overflow: hidden;
@@ -1017,57 +1286,6 @@ p {
 }
 .bloom-path--accent p {
   color: var(--bloom-light);
-}
-
-.bloom-alone {
-  background: var(--bloom-navy);
-  color: #f5f4f2;
-}
-.bloom-alone .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: clamp(28px, 4vw, 56px);
-  align-items: center;
-}
-.bloom-alone-copy {
-  padding: 32px 0;
-}
-.bloom-alone h2 {
-  font-family: var(--font-jost);
-  text-transform: uppercase;
-  letter-spacing: 0.01em;
-  color: #fff;
-  font-size: clamp(28px, 3.4vw, 42px);
-  line-height: 1.02;
-  text-wrap: balance;
-}
-.bloom-alone h2 .accent {
-  color: var(--bloom-accent);
-}
-.bloom-alone p {
-  margin-top: 18px;
-  color: var(--bloom-muted);
-  font-size: 16.5px;
-  max-width: 390px;
-}
-.bloom-alone strong {
-  color: #fff;
-  font-weight: 600;
-}
-.bloom-alone-figure {
-  justify-self: end;
-  width: 100%;
-  max-width: 440px;
-  height: clamp(220px, 26vw, 300px);
-  border-radius: 3px;
-  overflow: hidden;
-  box-shadow: 0 20px 50px rgba(8, 14, 26, 0.4);
-  background: var(--bloom-deep-navy);
-}
-.bloom-alone-figure img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .bloom-book {

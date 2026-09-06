@@ -44,7 +44,7 @@
 
   <section class="bloom-hero">
     <div class="bloom-hero-media">
-      <img src="<?php echo beauco_image( 'hero.jpg' ); ?>" alt="The Bloom Bus">
+      <img src="<?php echo beauco_image( 'drop-bloom-hero.webp' ); ?>" alt="The Bloom Bus">
     </div>
     <div class="bloom-hero-overlay"></div>
     <div class="bloom-hero-scrim"></div>
@@ -54,8 +54,7 @@
         <h1>Get on the bus.<br>Go somewhere good.</h1>
         <p>Join a Bloom adventure, or book the bus for one of your own.</p>
         <div class="bloom-hero-actions">
-          <a href="#book" class="btn bloom-btn-filled">Ride With Us <?php beauco_arrow_icon(); ?></a>
-          <a href="#book" class="btn bloom-btn-outline-white">Book The Bus <?php beauco_arrow_icon(); ?></a>
+          <a href="mailto:kerri@beauco.ca" class="btn bloom-btn-filled">Get In Touch <?php beauco_arrow_icon(); ?></a>
         </div>
       </div>
     </div>
@@ -72,19 +71,19 @@
       </div>
       <div class="bloom-polaroids">
         <div class="polaroid polaroid--1">
-          <img src="<?php echo beauco_image( 'p03.jpg' ); ?>" alt="Boarding the bus">
+          <img src="<?php echo beauco_image( 'drop-bloom-ride-1.webp' ); ?>" alt="Boarding the bus">
         </div>
         <div class="polaroid polaroid--2">
-          <img src="<?php echo beauco_image( 'p04.jpg' ); ?>" alt="On board, pink light">
+          <img src="<?php echo beauco_image( 'drop-bloom-ride-2.webp' ); ?>" alt="On board, pink light">
         </div>
         <div class="polaroid polaroid--3">
-          <img src="<?php echo beauco_image( 'p05.jpg' ); ?>" alt="In front of the bus">
+          <img src="<?php echo beauco_image( 'drop-bloom-ride-3.webp' ); ?>" alt="In front of the bus">
         </div>
         <div class="polaroid polaroid--4">
-          <?php beauco_photo_placeholder( 'snacks, music, the aisle' ); ?>
+          <img src="<?php echo beauco_image( 'drop-bloom-ride-4.webp' ); ?>" alt="Snacks, music, the aisle">
         </div>
         <div class="polaroid polaroid--5">
-          <?php beauco_photo_placeholder( 'arriving somewhere good' ); ?>
+          <img src="<?php echo beauco_image( 'drop-bloom-ride-5.webp' ); ?>" alt="Arriving somewhere good">
         </div>
       </div>
     </div>
@@ -109,18 +108,6 @@
     </div>
   </section>
 
-  <section class="bloom-alone">
-    <div class="container">
-      <div class="bloom-alone-copy">
-        <h2>Come alone.<br><span class="accent">Don&rsquo;t arrive alone.</span></h2>
-        <p><strong>Bloom is about getting people together.</strong> That&rsquo;s it.</p>
-      </div>
-      <div class="bloom-alone-figure">
-        <img src="<?php echo beauco_image( 'p08.jpg' ); ?>" alt="Getting people together on the Bloom Bus">
-      </div>
-    </div>
-  </section>
-
   <section class="bloom-book" id="book">
     <div class="container">
       <div class="bloom-book-intro">
@@ -129,7 +116,7 @@
       </div>
       <div class="bloom-tiles">
         <div class="bloom-tile bloom-tile--1">
-          <img src="<?php echo beauco_image( 'p10.jpg' ); ?>" alt="Private adventures">
+          <img src="<?php echo beauco_image( 'drop-bloom-tile-2.webp' ); ?>" alt="Private adventures">
           <div class="bloom-tile-gradient"></div>
           <div class="bloom-tile-copy">
             <span class="num">01</span>
@@ -138,7 +125,7 @@
           </div>
         </div>
         <div class="bloom-tile bloom-tile--2">
-          <?php beauco_photo_placeholder( 'inside the bus', true ); ?>
+          <img src="<?php echo beauco_image( 'drop-bloom-tile-3.webp' ); ?>" alt="Inside the bus">
           <div class="bloom-tile-gradient"></div>
           <div class="bloom-tile-copy">
             <span class="num">02</span>
@@ -147,7 +134,7 @@
           </div>
         </div>
         <div class="bloom-tile bloom-tile--3">
-          <img src="<?php echo beauco_image( 'corporate.jpg' ); ?>" alt="Corporate and community">
+          <img src="<?php echo beauco_image( 'drop-bloom-tile-4.webp' ); ?>" alt="Corporate and community">
           <div class="bloom-tile-gradient"></div>
           <div class="bloom-tile-copy">
             <span class="num">03</span>
@@ -182,12 +169,12 @@
           <span>Good snacks.</span>
         </div>
         <div class="bloom-film-tile">
-          <img src="<?php echo beauco_image( 'p13.jpg' ); ?>" alt="New people, old friends">
+          <img src="<?php echo beauco_image( 'drop-bloom-film-3.webp' ); ?>" alt="New people, old friends">
           <div class="bloom-film-tile-gradient"></div>
           <span>New people.<br>Old friends.</span>
         </div>
         <div class="bloom-film-tile">
-          <img src="<?php echo beauco_image( 'p07.jpg' ); ?>" alt="No parking, no designated driver">
+          <img src="<?php echo beauco_image( 'drop-bloom-film-4.webp' ); ?>" alt="No parking, no designated driver">
           <div class="bloom-film-tile-gradient"></div>
           <span>No parking.<br>No designated driver.</span>
         </div>
@@ -222,12 +209,12 @@
       </div>
       <div class="bloom-story-row">
         <div class="bloom-story-card">
-          <div class="photo"><img src="<?php echo beauco_image( 'p16.jpg' ); ?>" alt="Movement"></div>
+          <div class="photo"><img src="<?php echo beauco_image( 'drop-bloom-origin-1.webp' ); ?>" alt="Movement"></div>
           <div class="label">Movement</div>
         </div>
         <div class="bloom-story-arrow">&rarr;</div>
         <div class="bloom-story-card">
-          <div class="photo"><img src="<?php echo beauco_image( 'p07.jpg' ); ?>" alt="Road trips"></div>
+          <div class="photo"><img src="<?php echo beauco_image( 'drop-bloom-origin-2.webp' ); ?>" alt="Road trips"></div>
           <div class="label">Road trips</div>
         </div>
         <div class="bloom-story-arrow">&rarr;</div>
@@ -285,8 +272,9 @@
       </div>
       <div>
         <h4>Social</h4>
-        <a href="https://www.instagram.com/kerri_beauco/" target="_blank" rel="noopener">Instagram</a>
         <a href="https://www.facebook.com/kerri.beaulieu" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/kerri_beauco/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/in/kerribeaulieu/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
       <div>
         <h4>Contact</h4>
@@ -297,7 +285,6 @@
     </div>
     <div class="bloom-footer-bottom">
       <span>&copy; <?php echo esc_html( date( 'Y' ) ); ?> Bloom Bus &middot; a Beau &amp; Co. community initiative</span>
-      <span>Site in progress &middot; page draft</span>
     </div>
   </div>
 </footer>

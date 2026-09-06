@@ -23,6 +23,7 @@
       <img src="<?php echo beauco_image( 'p18.png' ); ?>" alt="Beau &amp; Co. Marketing">
     </a>
     <nav class="bc-nav">
+      <a href="<?php echo esc_url( beauco_template_page_url( 'template-about.php', '/about/' ) ); ?>">About Us</a>
       <a href="<?php echo esc_url( beauco_template_page_url( 'template-bloom.php', '/bloom/' ) ); ?>">Bloom Bus</a>
       <a href="mailto:kerri@beauco.ca" class="btn">Let&rsquo;s Talk</a>
     </nav>
@@ -144,7 +145,7 @@
   <section class="bc-kerri">
     <div class="container">
       <div class="bc-kerri-photo">
-        <?php beauco_photo_placeholder( 'Kerri Beaulieu portrait' ); ?>
+        <img src="<?php echo beauco_image( 'kerri-portrait.png' ); ?>" alt="Kerri Beaulieu">
       </div>
       <div>
         <span class="eyebrow">Who you&rsquo;re working with</span>
@@ -199,37 +200,7 @@
 
 </main>
 
-<footer class="bc-footer">
-  <div class="container">
-    <div class="bc-footer-grid">
-      <div class="bc-footer-logo">
-        <img src="<?php echo beauco_image( 'p18.png' ); ?>" alt="Beau &amp; Co. Marketing">
-      </div>
-      <div>
-        <h4>Navigation</h4>
-        <a href="#top">Home</a>
-        <a href="#work">Marketing</a>
-        <a href="<?php echo esc_url( beauco_template_page_url( 'template-bloom.php', '/bloom/' ) ); ?>">Bloom Bus</a>
-        <a href="#talk">Contact</a>
-      </div>
-      <div>
-        <h4>Social</h4>
-        <a href="https://www.facebook.com/kerri.beaulieu" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://www.instagram.com/kerri_beauco/" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://www.linkedin.com/in/kerribeaulieu/" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <a href="mailto:kerri@beauco.ca">kerri@beauco.ca</a>
-        <a href="tel:+14168340444">Tel. 416.834.0444</a>
-        <span>Hamilton, ON</span>
-      </div>
-    </div>
-    <div class="bc-footer-bottom">
-      <span>&copy; <?php echo esc_html( date( 'Y' ) ); ?> Beau &amp; Co. Marketing</span>
-    </div>
-  </div>
-</footer>
+<?php get_template_part( 'template-parts/footer-beauco' ); ?>
 
 <?php wp_footer(); ?>
 </body>
