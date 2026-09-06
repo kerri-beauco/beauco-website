@@ -23,9 +23,7 @@
       <img src="<?php echo beauco_image( 'p18.png' ); ?>" alt="Beau &amp; Co. Marketing">
     </a>
     <nav class="bc-nav">
-      <a href="#work">About Us</a>
-      <a href="<?php echo esc_url( beauco_template_page_url( 'template-bloom.php', '/bloom/' ) ); ?>">Bloom</a>
-      <a href="#talk">Contact</a>
+      <a href="<?php echo esc_url( beauco_template_page_url( 'template-bloom.php', '/bloom/' ) ); ?>">Bloom Bus</a>
       <a href="mailto:kerri@beauco.ca" class="btn">Let&rsquo;s Talk</a>
     </nav>
   </div>
@@ -211,7 +209,7 @@
         <h4>Navigation</h4>
         <a href="#top">Home</a>
         <a href="#work">Marketing</a>
-        <a href="<?php echo esc_url( beauco_template_page_url( 'template-bloom.php', '/bloom/' ) ); ?>">Bloom</a>
+        <a href="<?php echo esc_url( beauco_template_page_url( 'template-bloom.php', '/bloom/' ) ); ?>">Bloom Bus</a>
         <a href="#talk">Contact</a>
       </div>
       <div>
