@@ -1556,6 +1556,11 @@ p {
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+/* The Movement photo is square with the faces near the top, so anchor the
+   crop to the top instead of the centre — otherwise the heads get cut off. */
+.bloom-story-card--top-crop img {
+  object-position: center top;
+}
 .bloom-story-card .label {
   padding: 16px 18px;
   font-family: var(--font-jost);

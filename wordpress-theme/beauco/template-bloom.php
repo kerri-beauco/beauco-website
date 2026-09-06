@@ -208,7 +208,7 @@
         <h2>How we got here</h2>
       </div>
       <div class="bloom-story-row">
-        <div class="bloom-story-card">
+        <div class="bloom-story-card bloom-story-card--top-crop">
           <div class="photo"><img src="<?php echo beauco_image( 'drop-bloom-origin-1.webp' ); ?>" alt="Movement"></div>
           <div class="label">Movement</div>
         </div>
