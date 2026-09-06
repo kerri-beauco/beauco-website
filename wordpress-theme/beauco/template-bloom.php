@@ -286,7 +286,7 @@
       <div>
         <h4>Social</h4>
         <a href="https://www.instagram.com/kerri_beauco/" target="_blank" rel="noopener">Instagram</a>
-        <a href="#" rel="noopener">Facebook</a>
+        <a href="https://www.facebook.com/kerri.beaulieu" target="_blank" rel="noopener">Facebook</a>
       </div>
       <div>
         <h4>Contact</h4>
